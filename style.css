@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+background-color: rgb(155, 24, 249);
+text-align: center;
+}
+
+.magic {
+     margin-top: 30px;
+     font-size: 5rem;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7vmin;
+}
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    
+}
+#box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 0.7rem;
+    border: none;
+    font-size: 13vmin;
+    background-color: rgb(231, 216, 249);
+    color: rgb(147, 6, 247);
+}
+#reset-btn {
+    height: 6vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    font-size: 3vmin;
+    margin-top: 4vmin;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 244, 244);
+}
+
+#new-game-btn {
+    height: 7vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    font-size: 3vmin;
+    background-color: black;
+    color: antiquewhite;
+
+}
+
+#msg {
+    color: antiquewhite;
+    font-size: 9vmin;
+}
+
+
+
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10vmin;
+}
+
+.hide {
+    display: none;
+}
+
+@media (max-width: 1500px) {
+  #reset-btn {
+    margin-top: 7vmin;
+}
+}
+
+@media (max-width: 1200px) {
+.magic {
+     margin-top: 20px;
+     font-size: 5rem;
+}
+#reset-btn {
+    margin-top: 7vmin;
+}
+.container {
+    margin-top: 5vmin;
+}
+}
+
+@media (max-width: 426px) {
+.magic {
+            margin-top: 15vmin;
+        font-size: 2.4rem;
+}
+.container {
+    margin-top: 20vmin;
+}
+#reset-btn {
+               height: 12vmin;
+        width: 38vmin;
+        font-size: 6vmin;
+        margin-top: 20vmin;
+}
+}
+
+@media (max-width: 376px) {
+  .magic {
+     margin-top: 25vmin;
+        font-size: 2.1rem;
+}
+.container {
+    margin-top: 25vmin;
+}
+#reset-btn {
+        height: 12vmin;
+        width: 55vmin;
+        font-size: 6vmin;
+        margin-top: 20vmin;
+}
+} 
+@media (max-width: 321px) {
+   .magic {
+     margin-top: 30vmin;
+        font-size: 2rem;
+}
+.container {
+    margin-top: 35vmin;
+}
+#reset-btn {
+        height: 12vmin;
+        width: 55vmin;
+        font-size: 6vmin;
+        margin-top: 30vmin;
+}
+} 
+

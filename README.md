@@ -1,2 +1,16 @@
-# TIC-TAC-TOE
-Tic Tac Toe is a 2-player game played on a 3×3 grid. Players take turns marking X or O, aiming to get three in a row—horizontally, vertically, or diagonally. The first to do so wins. If all spaces are filled without a winner, it's a draw. Simple, fun, and strategy-based!
+process to make a Tic Tac Toe game:
+
+
+Design the UI – Create a 3x3 grid layout.
+
+Set player turns – Use X and O alternately.
+
+Handle clicks – Detect and mark a cell.
+
+Check for win – After each move, check rows, columns, and diagonals.
+
+Check for draw – If all cells are filled and no winner.
+
+Show result – Display winner.
+
+Restart option – Add a reset button to play again.
