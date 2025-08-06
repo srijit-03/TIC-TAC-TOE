@@ -8,6 +8,8 @@ Handle clicks – Detect and mark a cell.
 
 Check for win – After each move, check rows, columns, and diagonals.
 
-Show result – Display winner.
+Chech for draw - If all cells are filled and there's no winner, declare a draw.
+
+Show result – Display winner or It's a Draw.
 
 Restart option – Add a reset button to play again.
