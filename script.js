@@ -4,6 +4,7 @@ let msges = document.querySelector("#msg");
 let newGame = document.querySelector("#new-game-btn");
 let msgContainer = document.querySelector(".msg-container");
 let newmagic = document.querySelector(".magic");
+let newGameSec = document.querySelector(".game-sec");
 let turnO = true;
 
 const winPatterns = [
@@ -37,7 +38,7 @@ const resetGame = () => {
     trueO = true;
     enableBoxes();
     msgContainer.classList.add("hide");
-    newmagic.classList.remove("hide");
+    newGameSec.classList.remove("hide");
 };
 
 
@@ -57,7 +58,7 @@ const enableBoxes = () => {
 const showWin = (winner) => {
     msg.innerText = `Congratulations, Winner is ${winner}`;
     msgContainer.classList.remove("hide");
-    newmagic.classList.add("hide");
+    newGameSec.classList.add("hide");
     disableBoxes();
 };
 
@@ -91,7 +92,7 @@ const checkDraw = () => {
     if (allFilled) {
         msg.innerText = "It's a draw!";
         msgContainer.classList.remove("hide");
-        newmagic.classList.add("hide");
+        newGameSec.classList.add("hide");
     }
 };
 
